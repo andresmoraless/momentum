@@ -1,17 +1,19 @@
-//
-//  MomentumApp.swift
-//  Momentum
-//
-//  Created by andres morales on 30/09/25.
-//
-
 import SwiftUI
 
 @main
 struct MomentumApp: App {
+    @StateObject private var store = MomentumGoalStore()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView() 
+                .environmentObject(store)
         }
     }
 }
+
+
+
+
+
+

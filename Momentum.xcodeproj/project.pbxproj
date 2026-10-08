@@ -32,8 +32,8 @@
 		2C622B8F2E8C424600948D5A = {
 			isa = PBXGroup;
 			children = (
-				2C622B9A2E8C424600948D5A /* Momentum */,
 				2C622B992E8C424600948D5A /* Products */,
+				2C622B9A2E8C424600948D5A /* Momentum */,
 			);
 			sourceTree = "<group>";
 		};
